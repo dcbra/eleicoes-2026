@@ -21,14 +21,14 @@ against the final count (99.8% counted, final margin +3.56 pp), using 77 snapsho
 during the night. Values are the error of the forecast final margin, in percentage points
 (root mean square error):
 
-| Votes counted | Simple extrapolation | Calibrated model | Model without drift | 95% range contained the final result |
+| Polling stations counted | Simple extrapolation | Calibrated model | Model without drift | 95% range contained the final result |
 |---|---|---|---|---|
 | 10% – 30% | 2.84 | 5.98 | 4.09 | 100% |
 | 30% – 60% | 4.12 | 2.72 | 3.25 | 100% |
 | 60% – 90% | 1.54 | **0.12** | 1.32 | 100% |
 | 90% – 99% | 0.31 | **0.06** | 0.40 | 100% |
 
-With 60% to 90% of the votes counted, the calibrated model missed the final margin by about
+With 60% to 90% of polling stations counted, the calibrated model missed the final margin by about
 0.1 pp, while simple extrapolation missed by 1.5 pp. In the early phase (10% – 30%) the
 model did worse than simple extrapolation, which is why the dashboard always shows both.
 Reproduce with `python3 predicao-2turno/avaliar.py`.
